@@ -1,0 +1,79 @@
+
+@import url('alapstilus.css');
+
+a#nagybetu {display: none;}
+a#normalbetu {display: block;}
+
+nav#gyengenlato { width:1200px;}
+
+.tab{
+	padding-left: 2%;
+}
+
+body {
+	font-size:2em;
+	background-image: none;
+	width: 90%;
+}
+
+.wrapperclass, #képdiv {
+	overflow: auto;
+}
+
+#táblázatdiv {
+	float: none;
+}
+
+.egymásmellettbal, #videomelletti {
+	float: none;
+	width: 100%;
+}
+
+.egymásmellettjobb{
+	margin-right: 0%;
+	float: none;
+	width: 100%;
+}
+
+.videolejatszo{
+	float: none;
+}
+
+#videoszoveg{
+	margin-right: 0%;
+	width: 100%;
+	float:none;
+}
+
+#szövegdiv {
+	float: none;
+}
+
+article{
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+}
+
+table{
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#háttérdiv{
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#elsőkép, #másodikkép, #harmadikkép {
+	margin-left:0%;
+	margin-right:0%;
+	width: 10%;
+	float: none;
+}
+
+footer {
+	margin-left:0%;
+	margin-right:0%;
+}
+
