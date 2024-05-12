@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+	  <script src="script/styleswitcher.js"></script>
+
+    <title>A mosómacikról/Előfordulás</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="kipozicional">
+            <a href="#tartalomraugras">Ugrás a tartalomra</a>
+          </nav>
+          <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+        </nav>
+    </header>
+
+    <div id="háttérdiv">
+        <nav id="igazinav">
+            <img src="képek/mosomaci1.jpg" width="150" alt="Mosómedve logó">
+            <a href="index.html"><b>Megjelenés</b></a><span class="tab"></span>
+            <b id="Aktuálislink">Előfordulás</b><span class="tab"></span>
+            <a href="Életmód.html"><b>Életmód</b></a><span class="tab"></span>
+            <a href="Űrlap.html"><b>Űrlap</b></a>
+        </nav>
+        <article id="tartalomraugras">
+            <h1>A mosómedve előfordulása bolygónkon</h1>
+            <section>
+                <h2>Őshazája</h2>
+                <p>
+                    A mosómedve hazája eredetileg <b>Észak- és Közép-Amerika, Kanada, az USA és Mexikó;</b> 
+                    különösen szereti az olyan erdőt, amelyben <b>folyók, tavak vagy patakok</b> találhatók. 
+                    Napjainkban az emberlakta vidékeken már ritkább, mert szívesen vadásszák prémjéért 
+                    és húsáért egyaránt.
+                </p>
+            </section>
+            <section>
+                <h2>Betelepítése</h2>
+                <p>
+                    Európába elsősorban a <b>prémje miatt telepítették,</b> majd itt is elszaporodott: 
+                    először Nyugat-Németországban, majd a Benelux-államokban és Franciaország keleti 
+                    vidékén telepedett le, de a hajdani Szovjetunió területén is megtalálható.
+                </p>
+            </section>
+        </article>
+    
+        <figure>
+            <a href="képek/elterjedesterkep.png"><img id="negyedikkép" src="képek/elterjedesterkep.png" title="Elterjedési területe
+            (piros: eredeti, kék: betelepített)"
+            alt="Egy világtérképen piros színnel van jelölve hogy eredetileg hol élt 
+            a mosómedve (Észak- és Közép-Amerika), kékkel pedig hogy hova telepítették 
+            be (Közép-Európa egy része, Törökország és Irán határa, illetve Japán)." class="img-thumbnail"></a>
+            <figcaption>
+                Elterjedési területe <br> (piros: eredeti, kék: betelepített)
+            </figcaption>
+        </figure>
+        <footer>
+            Források:
+            <ol>
+              <li><nav><a href="https://hu.wikipedia.org/wiki/Mos%C3%B3medve" target="blank">A mosómedve wikipédia oldala</a></nav></li>
+              <li><nav><a href="https://mek.oszk.hu/03400/03408/html/439.html" target="blank">Brehm: Az állatok világa/Mosómedvék</a></nav></li>
+            </ol>
+          </footer>
+    </div>
+</body>
+  
+</html>

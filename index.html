@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+	  <script src="script/styleswitcher.js"></script>
+
+    <title>A mosómacikról/Megjelenés</title>
+</head>
+
+<body>
+  <header>
+    <nav class="kipozicional">
+      <a href="#wrapper">Ugrás a tartalomra</a>
+    </nav>
+    <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+      <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+    </nav>
+  </header>
+
+  <div id="háttérdiv">
+    <nav id="igazinav">
+        <img src="képek/mosomaci1.jpg" width="150" alt="Mosómedve logó">
+        <b id="Aktuálislink">Megjelenés</b> <span class="tab"></span>
+        <a href="Előfordulás.html"><b>Előfordulás</b></a><span class="tab"></span>
+        <a href="Életmód.html"><b>Életmód</b></a><span class="tab"></span>
+        <a href="Űrlap.html"><b>Űrlap</b></a>
+    </nav>
+    <div class="wrapperclass">
+      <aside>
+        <div id="táblázatdiv">
+          <table>
+            <caption>
+              <strong>Mosómedvék</strong>
+              <details>
+                <summary>Segítség</summary>
+                <p>Ebben a táblázatban a mosómedvék biológiai rendszerezésének magyar illetve latin neve olvasható.</p>
+              </details>
+            </caption>
+            <tr>
+              <th class="sötét">Rendszertani<br>besorolás</th>
+              <th class="sötét">Magyarul</th>
+              <th class="sötét">Latinul</th>
+            </tr>
+            <tr>
+              <td class="világos">Ország</td>
+              <td class="világos">Állatok</td>
+              <td class="világos">Animalia</td>
+            </tr>
+            <tr>
+              <td class="sötét">Törzs</td>
+              <td class="sötét">Gerinchúrosok</td>
+              <td class="sötét">Chordata</td>
+            </tr>
+            <tr>
+              <td class="világos">Altörzs</td>
+              <td class="világos">Gerincesek</td>
+              <td class="világos">Vertebrata</td>
+            </tr>
+            <tr>
+              <td class="sötét">Főosztály</td>
+              <td class="sötét">Négylábúak</td>
+              <td class="sötét">Tetrapoda</td>
+            </tr>
+            <tr>
+              <td class="világos">Osztály</td>
+              <td class="világos">Emlősök</td>
+              <td class="világos">Mammalia</td>
+            </tr>
+            <tr>
+              <td class="sötét">Alosztály</td>
+              <td class="sötét">Elevenszülő emlősök</td>
+              <td class="sötét">Theria</td>
+            </tr>
+          </table>
+        </div>
+      </aside>
+      <div id="szövegdiv">
+        <article>
+          <h1>A mosómedve megjelenése</h1>
+          <p>
+            A mosómedve többnyire <b>60–80 cm hosszú,</b> farka 20–40 cm, így teljes hossza 90-120 cm. 
+            Testtömege nagy részét az elraktározott zsír teszi ki; <b>átlagosan 6–7 kilogramm,</b> de 
+            2–10 kilogramm között változhat.
+          </p>
+          <p>
+            Dús, hosszú, vékonyszőrű <b>bundája sárgásszürke,</b> feketével keverve. A hasi oldalon 
+            fehéres, hosszú farka fekete-fehér gyűrűkben csíkozott, <b>szeme felett fekete álarc 
+            található.</b>
+          </p>
+          <p>
+            <b>A fej alakja rókaszerű,</b> hátul erősen széles; szájában 40 darab fog található. 
+            Arcorra rövid, fülei lekerekítettek és oldalt állnak; ötujjú mancsai hasonlítanak 
+            egy emberi kézre és rendkívül ügyesek. <b>Erős karmaival ügyesen tud fára mászni</b> - 
+            veszély esetén szívesen menekül a magasba.
+          </p>
+        </article>
+      </div>
+    </div>
+  
+    <div id="képdiv" class="wrapperclass">
+        <figure id="elsőkép">
+          <a href="képek/Mosomaci4.jpg"><img id="elsonyomtatas" src="képek/Mosomaci4.jpg" height="250" title="A mosómedve mancsai hasonlítanak az emberi kézfejre"
+          alt="Egy mosómedve két lábon állva felfelé nyújtja két első mancsát. Jól 
+          látszik a képen, hogy a mosómedve mancsa nagyon hasonlít egy emberi kézfejre." class="img-thumbnail"></a>
+          <figcaption>
+            A mosómedve mancsai hasonlítanak <br>az emberi kézfejre
+          </figcaption>
+        </figure>
+      
+        <figure id="másodikkép">
+          <a href="képek/mosomaci7.png"><img id="masodiknyomtatas" src="képek/mosomacikicsi2.PNG" height="250" title="Mosómedve mérete egy emberhez képest"
+          alt="Egy mosómedve és egy ember sziluettje mutatja, mekkora egy mosómedve egy 
+          emberhez viszonyítva. A mosómedve körülbelül az ember sípcsontjának a feléig ér." class="img-thumbnail"></a>
+          <figcaption>
+            Mosómedve mérete egy emberhez képest
+          </figcaption>
+        </figure>
+      
+        <figure id="harmadikkép">
+          <a href="képek/Mosomaci3.jpg"><img id="harmadiknyomtatas" src="képek/mosomacikicsi3.PNG" height="250" title="A mosómedve remekül tud fára mászni"
+          alt="Egy mosómedve egy lombkorona nélküli fa tetején, 
+          négy mancsával a fa ágaiba kapaszkodik." class="img-thumbnail"></a>
+          <figcaption>
+            A mosómedve remekül tud fára mászni
+          </figcaption>
+        </figure>
+    </div>
+  
+    <footer>
+      Források:
+      <ol>
+        <li><nav><a href="https://hu.wikipedia.org/wiki/Mos%C3%B3medve" target="blank">A mosómedve wikipédia oldala</a></nav></li>
+        <li><nav><a href="https://mek.oszk.hu/03400/03408/html/439.html" target="blank">Brehm: Az állatok világa/Mosómedvék</a></nav></li>
+      </ol>
+    </footer>
+  </div>
+</body>
+</html>

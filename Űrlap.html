@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+	  <script src="script/styleswitcher.js"></script>
+    
+    <title>A mosómacikról/Űrlap</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="kipozicional">
+            <a href="#tartalomraugras">Ugrás a tartalomra</a>
+          </nav>
+          <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+        </nav>
+    </header>
+
+    <div id="háttérdiv">
+        <nav id="igazinav">
+            <img src="képek/mosomaci1.jpg" width="150" alt="Mosómedve logó">
+            <a href="index.html"><b>Megjelenés</b></a><span class="tab"></span>
+            <a href="Előfordulás.html"><b>Előfordulás</b></a><span class="tab"></span>
+            <a href="Életmód.html"><b>Életmód</b></a><span class="tab"></span>
+            <b id="Aktuálislink">Űrlap</b>
+        </nav>
+        <article id="tartalomraugras">
+            <h1>Űrlap a mosómedvékről</h1>
+            <p>
+                <b><i>Szereted a mosómacikat? Hozzá szeretnél adni 
+                érdekességeket a weblaphoz? Töltsd ki az űrlapunkat!</i></b>
+            </p>
+        </article>
+        <form action="mailto:pvcq21@inf.elte.hu" method="post" enctype="text/plain">
+            <fieldset>
+                <label for="Név"><b>Név:</b><br></label>
+                <input type="text" size="80" maxlength="70" id="Név" name="Név">
+            </fieldset>
+    
+            <fieldset>
+                <legend><b>Mennyire tartottad informatívnak a weboldalt? (1-egyáltalán nem informatív, 5-nagyon informatív)</b></legend>
+                <input type="radio" id="1" name="ertekeles" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" name="ertekeles" value="2">
+                <label for="2">2</label>
+                <input type="radio" id="3" name="ertekeles" value="3">
+                <label for="3">3</label>
+                <input type="radio" id="4" name="ertekeles" value="4">
+                <label for="4">4</label>
+                <input type="radio" id="5" name="ertekeles" value="5">
+                <label for="5">5</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend><b>Hírlevél</b></legend>
+                <input type="checkbox" id="hirlevel" name="hirlevel" value="igen">
+                <label for="hirlevel">Fel szeretnék jelentkezni a mosómacis hírlevélre</label>
+            </fieldset>
+    
+            <fieldset>
+                <label for="erdekesseg"><b>Milyen érdekes információval egészítenéd ki a weblapot?</b><br></label>
+                <textarea cols="75" rows="15" maxlength="1150" id="erdekesseg" name="erdekesseg" placeholder="Röviden írd le az érdekességet, amit meg akarsz osztani!"></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend><b>Adatok elküldése</b></legend>
+                <input type="reset" value="Töröl" id="torol">
+                <input type="submit" value="Elküld" id="elkuld">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
